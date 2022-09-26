@@ -220,6 +220,21 @@ namespace Lab2
             }
         }
 
-        
+        public override bool Equals(object obj1)
+        {
+            if(obj1 is Bus obj2);
+            return false;
+        }
+
+        public override int GetHashCode()
+        {
+            return PI.GetHashCode();
+
+        }
+
+        public override string ToString()
+        {
+            return brand.ToString();
+        }
     }
  }
