@@ -134,6 +134,84 @@ namespace Lab2
             noo++;
         }
 
-   
+        public string Fio
+        {
+            get
+            {   
+                return fio;
+
+            }
+            set
+            {
+                fio = value;
+            }
+        }
+
+        public string NumberOfBus
+        {
+            get
+            {
+                return numberOfBus;
+
+            }
+            set
+            {
+                numberOfBus = value;
+            }
+        }
+
+        public int NumberOfRoute
+        {
+            get
+            {
+                return numberOfRoute;
+
+            }
+            set
+            {
+                numberOfRoute= value;
+            }
+        }
+
+        public string Brand
+        {
+            get
+            {
+                return brand;
+
+            }
+            set
+            {
+                brand = value;
+            }
+        }
+
+        public int YearOfExploitation
+        {
+            get
+            {
+                return yearOfExploitation;
+
+            }
+            set
+            {
+                yearOfExploitation = value;
+            }
+        }
+
+        public string Mileage
+        {
+            get
+            {
+                return mileage;
+
+            }
+            private set
+            {
+                mileage = value;
+            }
+        }
+
+       
     }
  }
