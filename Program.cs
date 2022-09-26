@@ -212,6 +212,14 @@ namespace Lab2
             }
         }
 
-       
+        partial class BUS
+        {
+            public void Drive()
+            {
+                Console.WriteLine("I'm driving");
+            }
+        }
+
+        
     }
  }
